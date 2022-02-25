@@ -15,8 +15,10 @@ hr {
   font-weight: bold;
 }
 body {
-  background-image:url("https://codemyui.com/wp-content/uploads/2016/11/pure-css-snow-animation.gif");
-  background-repeat: repeat;
+  background-image:url("https://i.pinimg.com/originals/b1/d3/bd/b1d3bd93c492a807cf6f34e3ea3ffac6.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 * {box-sizing:border-box}
 
@@ -109,7 +111,7 @@ body {
   from {opacity: .4}
   to {opacity: 1}
 }
-.capybara {
+.amPic1 {
   border-radius: 50%;
   border: 3px solid white;
   display: block;
@@ -117,4 +119,49 @@ body {
   margin-right: auto;
   height: 480px;
   width: 500px;
+}
+.amParagraphPadding {
+  padding-left: 740px;
+  padding-right: 740px;
+}
+.Supernatural {
+  border-radius: 50%;
+  border-color: #bf6d9d;
+  height: 200px;
+  width: 200px;
+}
+.amTextPadding1 {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  text-decoration: underline;
+}
+.cardImage {
+  width: 215px;
+  height: 275px;
+}
+.carouselImage {
+  width: 600px;
+  height: 550px;
+}
+.carddimensions {
+  height: 250px;
+  width: 280px;
 }
