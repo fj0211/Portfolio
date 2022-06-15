@@ -15,7 +15,7 @@ hr {
   font-weight: bold;
 }
 body {
-  background-image:url("https://i.pinimg.com/originals/b1/d3/bd/b1d3bd93c492a807cf6f34e3ea3ffac6.png");
+  background-image:url("https://i.pinimg.com/originals/d8/16/94/d81694d202eb63f975af5b6b0d8e37ac.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -161,7 +161,50 @@ a:active {
   width: 600px;
   height: 550px;
 }
-.carddimensions {
-  height: 250px;
-  width: 280px;
+/* navbar */
+.navbar {
+  background-color: #333;
+  box-shadow: 0 8px 14px 0 #642de3;
+  position: sticky;
+  display: flex;
+  height: 80px;
+}
+.navbar a {
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a.active {
+  font-weight: bold;
+  color: white;
+}
+
+.navbar a:hover {
+  color: red;
+}
+
+nav {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+/* Navbar animation */
+a {
+	 background-image: linear-gradient(to right, white, #967bb6 50%, white 50%);
+	 background-size: 200% 100%;
+	 background-position: -100%;
+	 display: inline-block;
+	 padding-bottom: 4px;
+	 position: relative;
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;
+	 transition: all 0.3s ease-in-out;
+}
+
+ a:hover {
+	 background-position: 0;
+}
+ a:hover::before {
+	 width: 100%;
 }
